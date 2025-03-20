@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JD Savage - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>JD Savage</h1>
+        <h3>Senior Software Engineer</h3>
+        <p>Fort Worth, Texas | 817-797-2866 | <a href="mailto:jds86@live.com">jds86@live.com</a> | <a
+                href="https://www.linkedin.com/in/jd-savage-5334275b/">LinkedIn Profile</a></p>
+    </header>
+    <!-- Nav -->
+    <nav>
+        <ul>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="cover-letter.html">Cover Letter</a></li>
+            <li><a href="career-goals.html">Career Goals</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Professional Summary</h2>
+            <article>
+                <p>
+                    Senior Software Engineer with extensive <strong>full-stack development experience</strong> and a
+                    strong background in
+                    <em>cloud infrastructure</em> and system integration. Proven track record in leading complex
+                    technical projects,
+                    modernizing legacy applications, and implementing cloud solutions. Expertise in Angular, Java, and
+                    AWS technologies
+                    combined with a security-focused approach to software development.
+                </p>
+            </article>
+            <hr>
+        </section>
+
+        <section>
+            <h4>Technical Skills</h4>
+            <ul>
+                <li>Cloud & Infrastructure: AWS (S3, CloudFront, ECS, EKS, CloudWatch, CloudFormation), Terraform,
+                    Docker, Fargate</li>
+                <li>Frontend: Angular (12-18), AngularJS, React, HTML5, CSS3, JavaScript, TypeScript</li>
+                <li>Backend: Java, Spring Boot, C#, .Net Framework, .Net Core, Asp.Net, Python, Node.js, Microservices
+                </li>
+                <li>Databases: Oracle SQL, MySQL, MSSQL, MongoDB</li>
+            </ul>
+            <hr>
+        </section>
+
+        <section>
+            <h4>Professional Experience</h4>
+            <table>
+                <caption>Work History Summary</caption>
+                <tr>
+                    <th>Years</th>
+                    <th>Company</th>
+                    <th>Role</th>
+                    <th>Key Achievements</th>
+                </tr>
+                <tr>
+                    <td>2021–Present</td>
+                    <td>Western Governors University</td>
+                    <td>Senior Software Engineer</td>
+                    <td>Led Angular 18 micro-frontend dev, AWS infrastructure with Terraform</td>
+                </tr>
+                <tr>
+                    <td>2019–2021</td>
+                    <td>CTI Foods</td>
+                    <td>ERP Technical Manager / Systems Integration Manager</td>
+                    <td>Managed AWS migration, developed ASP.NET Core apps</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>ACAExpress.com, Inc</td>
+                    <td>Software Developer</td>
+                    <td>Built healthcare enrollment app with ASP.NET MVC</td>
+                </tr>
+            </table>
+            <hr>
+
+        </section>
+
+        <section>
+            <h4>Work History</h4>
+            <ul>
+                <li>
+                    <h5>WESTERN GOVERNORS UNIVERSITY - Senior Software Engineer | October 2021 – Present</h5>
+                    <ul>
+                        <li>Led new development of Angular 18 module federated application, implementing micro-frontend
+                            architecture</li>
+                        <li>Architected and implemented AWS infrastructure using Terraform for hosting Angular module
+                            federated applications</li>
+                        <li>Established CI/CD pipelines using GitHub Actions for automated deployment to AWS S3</li>
+                        <li>Successfully migrated legacy AngularJS application through multiple Angular versions (12-17)
+                        </li>
+                        <li>Led critical project to replace decommissioning product, coordinating changes across 5
+                            applications</li>
+                        <li>Implemented comprehensive security measures and resolved vulnerabilities identified in
+                            Veracode and Prisma scans</li>
+                        <li>Mentored engineering team on code design and best practices, conducting thorough code
+                            reviews</li>
+                    </ul>
+                </li>
+                <li>
+                    <h5>CTI FOODS - ERP Technical Manager | January 2020 - November 2021<br>Systems Integration Manager
+                        | May 2019 - January 2020</h5>
+                    <ul>
+                        <li>Led full on-premises to AWS cloud migration initiative</li>
+                        <li>Managed development of full-stack applications using ASP.NET Core and Angular</li>
+                        <li>Implemented and maintained enterprise resource planning systems; Macola, SAP By Design</li>
+                        <li>Performed System Administration duties including managing printers, computers, on-prem and
+                            cloud-hosted servers</li>
+                        <li>Performed Network Administration duties including imaging/configuring switches, configuring
+                            firewalls/VPN</li>
+                        <li>Coordinated cross-functional teams across 5 states for technical support and system
+                            maintenance</li>
+                    </ul>
+                </li>
+                <li>
+                    <h5>ACAEXPRESS.COM, INC - Software Developer | February 2016 - December 2016</h5>
+                    <ul>
+                        <li>Developed and maintained healthcare enrollment processing web application</li>
+                        <li>Implemented new features using ASP.NET MVC, Entity Framework, and modern frontend
+                            technologies such as Polymer</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr>
+        </section>
+
+        <section>
+            <h4>Education & Certifications</h4>
+            <p><strong>Bachelor of Science, Homeland Security</strong><br>University of Maryland University College,
+                2012</p>
+            <p><em>Certifications:</em> AWS Certified Cloud Practitioner, CompTIA Security+, CompTIA Network+, CompTIA
+                A+, ITIL Certification</p>
+        </section>
+
+        <div id="current-date"></div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Contact: <a href="mailto:jds86@live.com">jds86@live.com</a> | 817-797-2866</p>
+    </footer>
+    <!-- Script -->
+    <script>
+        const dateDiv = document.getElementById('current-date');
+        const today = new Date().toLocaleDateString();
+        dateDiv.innerHTML = `<p>Updated as of: ${today}</p>`;
+        console.log("JD Savage's Résumé loaded successfully");
+    </script>
+</body>
+
+</html>
