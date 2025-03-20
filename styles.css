@@ -16,6 +16,30 @@ body {
     color: #666;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: solid, thin, #667;
+}
+
+#submit {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+
+}
+
+#contact-method {
+    margin-top: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /* Descendant Selector */
 nav ul li {
     display: inline;
